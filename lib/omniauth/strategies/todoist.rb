@@ -8,7 +8,7 @@ module OmniAuth
       option :name, "todoist"
 
       option :client_options, {
-        site:          "https://api.todoist.com",
+        site:          "https://app.todoist.com",
         authorize_url: "/oauth/authorize",
         token_url:     "/oauth/access_token",
         auth_scheme:   :request_body # https://developer.todoist.com/guides/#step-3-token-exchange
